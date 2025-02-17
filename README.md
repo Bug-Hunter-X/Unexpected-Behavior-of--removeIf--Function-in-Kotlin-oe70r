@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug related to the `removeIf` function in Kotlin. The `removeIf` function modifies the list in place, which can cause unexpected behavior if the list is accessed or modified during the execution of `removeIf`.  The provided solution shows how to avoid this issue by creating a copy of the list before applying `removeIf`.
